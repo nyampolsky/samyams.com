@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Torta Force</title>
+	<link media="all" rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Rubik One' rel='stylesheet'>
+    <style>
+    
+	body {
+        font-family: 'Rubik One';font-size: 22px;
+    }
+
+	
+    </style>
+    <!-- <script>
+        function toggleVisibility(elementId) {
+            var element = document.getElementById(elementId);
+            if (element.style.display === 'none') {
+                element.style.display = 'block';
+            } else {
+                element.style.display = 'none';
+            }
+        }
+    </script>
+-->
+</head>
+<body>
+	<div id="wrapper">
+		<!-- Header of the page -->
+		<header id="header">
+			<div class="container">
+				<!-- Logo -->
+				<div class="logo">
+					<a href="#"> <!-- return to top -->
+						<img src="images/logo.svg" width="110" height="25" alt="Final Proxies">
+					</a>
+				</div>
+				<!-- Header Title -->
+				<h1>Torta Force</h1>
+			</div>
+		</header>
+		<aside class="sidebar"> <!-- we use aside for side content such as sidebards etc.,-->
+			<!-- Logo for Sidenav -->
+			<div class="logo">
+				<a href="#">
+					<img src="images/logo.svg" width="110" height="25" alt="Final Proxies">
+				</a>
+			</div>
+			<nav id="nav">
+				<!-- Main Menu -->
+				<ul class="main-nav">
+					<li>
+						<a href="#menu">
+							Menu
+							<span class="line red"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#about">
+							About
+							<span class="line green"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#team">
+							Team
+							<span class="line blue"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#photos">
+							Gallery
+							<span class="line yellow"></span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</aside>
+		<!-- Content of the page -->
+		<main id="main">
+			<div class="container">
+				<!-- Banner Section -->
+				<section class="banner-section">
+					<!-- Banner Heading -->
+					<h2 class="h1">THIS WEEK</h2>
+					<div class="holder">
+						<!-- Banner Image -->
+						<div class="banner">
+							<img src="images/banner-img.jpg" alt="img description">
+							<span class="border-line"></span>
+						</div>
+						<!-- Banner Address -->
+						<span class="address">AT: 8140 Willow St, New Orleans, LA 70118</span>
+					</div>
+				</section>
+
+                <div style="position: relative;">
+					<!-- The image with an image map -->
+					<img src="images/menu.jpg" alt="menu" usemap="#imageMap" style="width: 70%; height: auto;">
+					
+					<map name="imageMap">
+						<area shape="rect" coords="110,430,220,456" onclick="toggleVisibility('element1')" alt="Area 1">
+						<area shape="rect" coords="100,520,260,590" onclick="toggleVisibility('element2')" alt="Area 2">
+						<area shape="rect" coords="99,614,415,686" onclick="toggleVisibility('element3')" alt="Area 3">
+					</map>
+					
+				</div>
+			
+				<!-- Meet Team Section -->
+				<section class="meet-team" id="team">
+					<!-- Team Heading -->
+					<h2 class="h1">MEAT THE TEAM</h2>
+					<div class="holder">
+						
+						<div class="col element1 " id="red-ranger">
+							<span class="line red"></span>
+							<!-- Team Image -->
+							<div class="img-box">
+								<img src="images/img01.jpg" width="140" alt="img description">
+							</div>
+							<!-- Team Text -->
+							<div class="text-box">
+								<p>
+									The spicy one. Red Torta leads our tortuitous duo. While an elite combatant he might be left on his
+									bun due to their quick temper</p>
+							</div>
+						</div>
+					</div>
+					<div id="element2" class="hidden">
+						<div class="col " id="green-ranger">
+							<span class="line yellow"></span>
+							<!-- Team Image -->
+							<div class="img-box">
+								<img src="images/img02.jpg" width="140" alt="img description">
+							</div>
+							<!-- Team Text -->
+							<div class="text-box">
+								<p>Speaking of pairs, Yellows double crunch saber can slice anything in two. Watch yer bread Fred!</p>
+							</div>
+						</div>
+						</div>
+						<div id="element3" class="hidden">
+						<div class="col" id="yellow-ranger">
+							<span class="line green hidden"></span>
+							<!-- Menu Image -->
+							<div class="img-box hidden">
+								<img src="images/img03.jpg" width="140" alt="img description">
+							</div>
+							<!-- Menu Text -->
+							<div class="text-box">
+								<p>Big Green has a big brain- the teams strategist pairs exceptionally with a cold beer.</p>
+							</div>
+						</div>
+					</div>
+			
+				</section>
+				<!-- Gallery Section -->
+				<section class="gallery-section" id="photos">
+					<!-- Gallery Heading -->
+					<h2 class="h1">Gallery</h2>
+					<div class="holder">
+						<!-- Image -->
+						<div class="card-image">
+							<a href="images/img04.jpg" data-fancybox="gallery" data-caption="Caption Images1">
+								<img src="images/img04.jpg" alt="Image Gallery">
+							</a>
+						</div>
+						<!-- Image -->
+						<div class="card-image">
+							<a href="images/img05.jpg" data-fancybox="gallery" data-caption="Caption Images2">
+								<img src="images/img05.jpg" alt="Image Gallery">
+							</a>
+						</div>
+						<!-- Image -->
+						<div class="card-image">
+							<a href="images/img06.jpg" data-fancybox="gallery" data-caption="Caption Images3">
+								<img src="images/img06.jpg" alt="Image Gallery">
+							</a>
+						</div>
+						<!-- Image -->
+						<div class="card-image">
+							<a href="images/img07.jpg" data-fancybox="gallery" data-caption="Caption Images4">
+								<img src="images/img07.jpg" alt="Image Gallery">
+							</a>
+						</div>
+						<!-- Image -->
+						<div class="card-image">
+							<a href="images/img08.jpg" data-fancybox="gallery" data-caption="Caption Images5">
+								<img src="images/img08.jpg" alt="Image Gallery">
+							</a>
+						</div>
+						<!-- Image -->
+						<div class="card-image">
+							<a href="images/img09.jpg" data-fancybox="gallery" data-caption="Caption Images6">
+								<img src="images/img09.jpg" alt="Image Gallery">
+							</a>
+						</div>
+					</div>
+				</section>
+            
+        
+        
+        </body>
+					</div>
+				</section>
+            
+        
+        
+        </body>
